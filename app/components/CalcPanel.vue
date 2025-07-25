@@ -9,7 +9,7 @@ const inputError: Ref<string> = ref('');
 const methods = [
   { value: 'THPT', label: 'THPT (Thi tốt nghiệp THPT)' },
   { value: 'TSA', label: 'TSA (Thi Đánh giá năng lực)' },
-  { value: 'HSA', label: 'HSA (Học bạ THPT)' },
+  { value: 'HSA', label: 'HSA (Thi đánh giá tư duy)' },
   { value: 'HOCBA', label: 'Điểm xét học bạ' }
 ];
 
