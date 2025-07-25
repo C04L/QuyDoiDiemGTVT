@@ -8,8 +8,8 @@ const inputError: Ref<string> = ref('');
 
 const methods = [
   { value: 'THPT', label: 'THPT (Thi tốt nghiệp THPT)' },
-  { value: 'TSA', label: 'TSA (Thi Đánh giá năng lực)' },
-  { value: 'HSA', label: 'HSA (Thi đánh giá tư duy)' },
+  { value: 'TSA', label: 'TSA (Thi Đánh giá tư duy ĐHBK)' },
+  { value: 'HSA', label: 'HSA (Thi đánh giá năng lực ĐHQG)' },
   { value: 'HOCBA', label: 'Điểm xét học bạ' }
 ];
 
