@@ -46,7 +46,7 @@ watch(method, () => {
   <div class="bg-white shadow-xl p-8 rounded-md sm:my-14 my-8 w-[36rem] relative transition-all">
     <img src="/gtvt.png" alt="logo gtvt" class="lg:w-12 sm:w-24 w-20 lg:absolute lg:-left-6 lg:top-3 mx-auto mb-6">
     <h1 class="uppercase font-semibold text-yellow-600 text-xl mb-6">
-      quy đổi tương đương mức điểm giữa các phương thức xét tuyển của trường đại học giao thông vận tải (GHA)
+      quy đổi tương đương mức điểm chuẩn giữa các phương thức xét tuyển của trường đại học giao thông vận tải (GHA)
     </h1>
 
     <section class="space-y-6">
