@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import {getAllMethodConverted, getScoreRange, isValidScore, type PTXT, type AllMethodReturnType} from "~/utils/calculator";
 
-const method: Ref<PTXT> = ref('THPT');
+const method: Ref<PTXT> = ref('HOCBA');
 const score: Ref<number> = ref(0);
 const Calculated: Ref<AllMethodReturnType | null> = ref(null);
 const inputError: Ref<string> = ref('');
@@ -45,7 +45,7 @@ watch(method, () => {
 <template>
   <div class="bg-white shadow-lg p-8 rounded-md my-8">
     <h1 class="uppercase font-semibold text-yellow-600 text-xl mb-6">
-      quy đổi điểm tuyển sinh trường đại học giao thông vận tải (UTC)
+      quy đổi điểm tuyển sinh 2025 trường đại học giao thông vận tải (UTC)
     </h1>
 
     <section class="space-y-6">
