@@ -43,8 +43,8 @@ watch(method, () => {
 </script>
 
 <template>
-  <div class="bg-white shadow-xl p-8 rounded-md my-8 relative">
-    <img src="/gtvt.png" alt="logo gtvt" class="w-12 absolute -left-6 top-3">
+  <div class="bg-white shadow-xl p-8 rounded-md my-8 relative transition-all">
+    <img src="/gtvt.png" alt="logo gtvt" class="lg:w-12 sm:w-24 w-20 lg:absolute lg:-left-6 lg:top-3 mx-auto mb-6">
     <h1 class="uppercase font-semibold text-yellow-600 text-xl mb-6">
       quy đổi điểm tuyển sinh 2025 trường đại học giao thông vận tải (UTC)
     </h1>
