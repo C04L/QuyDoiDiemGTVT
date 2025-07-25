@@ -2,7 +2,7 @@
 import {getAllMethodConverted, getScoreRange, isValidScore, type PTXT, type AllMethodReturnType} from "~/utils/calculator";
 
 const method: Ref<PTXT> = ref('HOCBA');
-const score: Ref<number> = ref(0);
+const score: Ref<number|null> = ref(null);
 const Calculated: Ref<AllMethodReturnType | null> = ref(null);
 const inputError: Ref<string> = ref('');
 
@@ -43,7 +43,8 @@ watch(method, () => {
 </script>
 
 <template>
-  <div class="bg-white shadow-lg p-8 rounded-md my-8">
+  <div class="bg-white shadow-xl p-8 rounded-md my-8 relative">
+    <img src="/gtvt.png" alt="logo gtvt" class="w-12 absolute -left-6 top-3">
     <h1 class="uppercase font-semibold text-yellow-600 text-xl mb-6">
       quy đổi điểm tuyển sinh 2025 trường đại học giao thông vận tải (UTC)
     </h1>
@@ -79,6 +80,7 @@ watch(method, () => {
         <div v-if="method" class="text-xs text-gray-500 mt-1">
           Khoảng điểm hợp lệ: {{ getScoreRange(method).min }} - {{ getScoreRange(method).max }}
         </div>
+        <span class="text-xs text-red-500">🛑 Sử dụng dấu chấm thập phân thay vì dấu phảy (VD: 20.8)</span>
       </div>
 
       <!-- Error Message -->

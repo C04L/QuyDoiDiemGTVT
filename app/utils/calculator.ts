@@ -112,7 +112,7 @@ export function convertScore(
 
     const convertedScore = y1 + ((x - x1) * (y2 - y1)) / (x2 - x1);
 
-    return Math.round(convertedScore * 100) / 100; // Round to 2
+    return convertedScore
 }
 
 /**
