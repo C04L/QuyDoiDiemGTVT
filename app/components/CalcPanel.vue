@@ -104,17 +104,17 @@ watch(method, () => {
           </div>
 
           <div class="bg-green-50 p-4 rounded-md">
-            <h3 class="font-medium text-green-800">TSA (Thi Đánh giá năng lực)</h3>
+            <h3 class="font-medium text-green-800">TSA (Thi đánh giá tư duy)</h3>
             <p class="text-2xl font-bold text-green-600">{{ formatScore(Calculated.tsa) }}</p>
           </div>
 
           <div class="bg-purple-50 p-4 rounded-md">
-            <h3 class="font-medium text-purple-800">HSA (Học bạ THPT)</h3>
+            <h3 class="font-medium text-purple-800">HSA (Thi đánh giá năng lực)</h3>
             <p class="text-2xl font-bold text-purple-600">{{ formatScore(Calculated.hsa) }}</p>
           </div>
 
           <div class="bg-orange-50 p-4 rounded-md">
-            <h3 class="font-medium text-orange-800">HOCBA (Học bạ lớp 12)</h3>
+            <h3 class="font-medium text-orange-800">HOCBA (Điểm xét học bạ)</h3>
             <p class="text-2xl font-bold text-orange-600">{{ formatScore(Calculated.hocba) }}</p>
           </div>
         </div>
